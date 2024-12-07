@@ -40,3 +40,37 @@ a:active {
     display: inline-block;
     height: 200px;
 }
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+/** HOME **/
+.galley {
+    display: flex;
+    gap: 3rem;
+}
+
+.galley img {
+    height: 280px;
+}
+
+/* contacts */
+
+.contacts form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 5rem;
+    gap: 1rem;
+}
+
+.contacts form input {
+    font-family: inherit;
+}
+
+.contacts form button {
+    width: max-content;
+    padding: 5px 20px;
+    align-self: center;
+}
